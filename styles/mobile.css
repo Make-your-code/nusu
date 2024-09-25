@@ -5,7 +5,7 @@
   }
   .hero {
     padding-top: 80px;
-    background-image: url("../assets/hero/mobile-background-image.png");
+    background-image: url('../assets/hero/mobile-background-image.png');
 
     background-size: contain;
     background-position: top left;
@@ -104,6 +104,10 @@
     margin-top: 24px;
   }
 
+  .estimate {
+    height: auto;
+  }
+
   .estimate-container {
     padding: 20px;
     padding-top: 48px;
@@ -136,6 +140,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-top: 0;
   }
   .useit-step-image-wrapper {
     position: relative;
@@ -168,7 +173,9 @@
     text-align: center;
   }
   .mobile-step-circle {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .step-text {
     display: inline-block;
@@ -176,5 +183,63 @@
     top: auto;
     left: auto;
     transform: translateX(0);
+    margin-bottom: 12px;
+  }
+
+  .guide-container {
+    padding-top: 60px;
+  }
+
+  .guide-content-wrapper {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+  .app-image-wrapper-lg {
+    width: 100%;
+
+    max-width: none;
+    display: flex;
+    justify-content: center;
+  }
+  .app-image-wrapper-lg .iphone-mockup-2 {
+    transform: translateY(0px);
+    max-width: 358px;
+    text-align: center;
+  }
+
+  .app-image-wrapper-m .app-image1 {
+    transform: translateY(0px);
+    max-width: 300px;
+  }
+
+  .app-image-flex {
+    margin-top: 60px;
+    width: 100%;
+    justify-content: center;
+  }
+  .slide-icon-wrapper-mobile {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .app-image-wrapper-m .app-image2 {
+    transform: translateY(0px);
+    max-width: 300px;
+  }
+  .app-image-wrapper-m .step-number {
+    display: none;
+  }
+  .app-image-wrapper-m .circle-dot {
+    display: none;
+  }
+  .slide-icon-wrapper {
+    display: none;
+  }
+
+  .app-explain {
+    display: none !important;
+    background-color: red;
+    transform: translateY(0px);
   }
 }

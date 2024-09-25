@@ -43,7 +43,7 @@ header {
   padding-top: 100px;
   box-sizing: border-box;
   background-color: var(--primary-color);
-  background-image: url("../assets/hero/background-image.png");
+  background-image: url('../assets/hero/background-image.png');
   background-size: cover; /* 이미지가 div를 완전히 덮도록 설정 */
   background-position: center; /* 이미지를 중앙에 위치 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
@@ -287,7 +287,7 @@ header {
   font-weight: bold;
 }
 
-.estimate-sub-title {
+.global-sub-title {
   color: #0a2c83;
   font-size: 26px;
 }
@@ -296,10 +296,19 @@ header {
   font-weight: bold;
 }
 
+.useit {
+  position: relative;
+}
+
+.useit-background {
+  background: linear-gradient(180deg, rgba(232, 235, 247, 0) 0%, #e8ebf7 100%);
+  width: 100%;
+  height: 100%;
+}
 .useit-container {
   width: 100%;
   padding: 50px 120px;
-  background-color: #fff;
+  padding-bottom: 120px;
 }
 
 .useit-title-wrapper {
@@ -309,6 +318,8 @@ header {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 50px;
+  text-align: center;
+  word-break: keep-all;
 }
 
 .useit-guide-wrapper {
@@ -346,6 +357,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding-top: 24px;
 }
 
 .useit-step-image-wrapper {
@@ -355,6 +367,10 @@ header {
 .useit-step-image-wrapper img {
   width: 100%;
   height: auto;
+}
+
+.useit-step-wrapper {
+  position: relative;
 }
 
 /* progress bar */
@@ -377,15 +393,18 @@ header {
 .step-number {
   width: 16px;
   height: 16px;
+
   border-radius: 50%;
   background-color: #4e7df7;
-  color: white;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
-  font-size: 12px;
-  margin-bottom: 8px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .step-circle {
   width: 8px;
@@ -409,11 +428,10 @@ header {
   font-weight: bold;
 
   border-radius: 34px;
-  margin-bottom: 12px;
   box-sizing: border-box;
 
   position: absolute;
-  top: -50px;
+  top: -80px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -440,8 +458,89 @@ header {
   transform: translateX(-50%);
 }
 
-.useit-step-wrapper {
+/* progress bar */
+
+/* useit section2 */
+.guide-container {
+  width: 100%;
+}
+.guide-title-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  word-break: keep-all;
+}
+.guide-content-wrapper {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
   position: relative;
 }
+.app-image-flex {
+  display: flex;
+}
 
-/* progress bar */
+.app-image-wrapper-lg {
+  max-width: 500px;
+}
+.slide-icon-wrapper {
+  position: relative;
+  padding-top: 220px;
+  width: auto;
+}
+.slide-icon-wrapper img {
+}
+.app-image-wrapper-m {
+  position: relative;
+}
+.app-image-wrapper-lg .iphone-mockup-2 {
+  width: 100%;
+  max-width: 500px;
+  transform: translateY(12px);
+}
+
+.app-image-wrapper-m .app-image1 {
+  width: 100%;
+  transform: translateY(40px);
+}
+
+.app-image-wrapper-m .app-image2 {
+  width: 100%;
+  transform: translateY(140px);
+}
+.app-image-wrapper-m .app-explain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transform: translateY(140px);
+  margin-bottom: 48px;
+}
+.background-white-container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.top-circle {
+  position: absolute;
+  top: 45%;
+}
+.circle-dot {
+  width: 2px;
+  height: 70px;
+  position: absolute;
+  border-left: 2px dotted #92addd;
+
+  z-index: 1;
+  top: 46%;
+  left: 50%;
+}
+
+.slide-icon-wrapper-mobile {
+  display: none;
+}

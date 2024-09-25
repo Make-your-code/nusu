@@ -29,4 +29,8 @@
   .useit-charctor {
     display: none;
   }
+
+  .app-image-wrapper-lg .iphone-mockup-2 {
+    transform: translateY(86px);
+  }
 }
