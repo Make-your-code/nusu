@@ -42,7 +42,7 @@ header {
   width: 100%;
   padding-top: 100px;
   box-sizing: border-box;
-  background-color: #0a2c83;
+  background-color: var(--primary-color);
   background-image: url("assets/hero/background-image.png");
   background-size: cover; /* 이미지가 div를 완전히 덮도록 설정 */
   background-position: center; /* 이미지를 중앙에 위치 */

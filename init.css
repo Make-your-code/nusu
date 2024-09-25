@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #0a2c83;
+}
+
 html {
   height: 100%;
 }
@@ -35,55 +39,4 @@ button {
 button {
   background: none;
   cursor: pointer;
-}
-
-.headline1 {
-  font-size: 70px;
-  font-weight: bold;
-}
-
-.headline2 {
-}
-.headline3 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.headline4 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.headline5 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.body-text {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-@media screen and (min-width: 768px) {
-  .headline1 {
-    font-size: 55px;
-  }
-  .headline2 {
-    font-size: 45px;
-  }
-  .headline3 {
-    font-size: 35px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .headline1 {
-    font-size: 70px;
-  }
-  .headline2 {
-    font-size: 55px;
-  }
-  .headline3 {
-    font-size: 40px;
-  }
 }
