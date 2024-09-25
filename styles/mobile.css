@@ -246,10 +246,28 @@
 
   /*card-section*/
 
-  .card-wrapper {
+  .card {
+    padding: 24px;
   }
 
+  .card-wrapper {
+    height: 520px;
+    display: flex;
+  }
+
+  .card-inner {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   /* footer */
+
+  footer {
+    padding: 24px;
+  }
   .footer-info-wrapper {
     flex-direction: column;
     gap: 2px;
