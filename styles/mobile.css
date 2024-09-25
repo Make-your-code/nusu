@@ -162,4 +162,13 @@
     width: 50%;
     left: 0;
   }
+  .mobile-step-circle {
+    display: block;
+  }
+  .step-text {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translateX(0);
+  }
 }
