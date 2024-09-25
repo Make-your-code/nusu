@@ -294,3 +294,131 @@ header {
 .estimate-text-wrapper .headline2 span {
   font-weight: bold;
 }
+
+.useit-container {
+  width: 100%;
+  padding: 50px 120px;
+  background-color: #fff;
+}
+
+.useit-title-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.useit-guide-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.useit-image-wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.charctor-img {
+  width: 100%;
+  height: auto;
+}
+
+.useit-step {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.useit-step-progress {
+  width: 100%;
+  display: flex;
+}
+
+.useit-step-image {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.useit-step-image-wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.useit-step-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+/* progress bar */
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+.progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  width: 33%;
+}
+.step-number {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #4e7df7;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.step-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #365abb;
+}
+.step-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  width: auto;
+  min-width: 120px;
+  padding: 4px 20px;
+
+  background-color: #e8ebfb;
+  color: #365abb;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  border-radius: 34px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+.progress-line {
+  position: absolute;
+  top: 50px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  border-top: 2px dotted #92addd;
+  z-index: 0;
+}
+
+/* progress bar */
