@@ -20,4 +20,7 @@
   .features-explain-text {
     margin-top: 48px;
   }
+  .estimate-image-wrapper {
+    max-width: 400px;
+  }
 }

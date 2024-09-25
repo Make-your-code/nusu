@@ -186,6 +186,9 @@ header {
   align-items: center;
   margin-right: 3vw;
 }
+.mobile-view {
+  display: none;
+}
 
 .service-text-wrapper {
   display: flex;
@@ -193,12 +196,13 @@ header {
   gap: 12px;
   word-break: keep-all;
 }
-.sub-title {
+.service-sub-title {
   font-size: 26px;
 }
 
 .service-sub-text-wrapper {
-  width: 80%;
+  width: 100%;
+  max-width: 720px;
 }
 
 .service-sub-text-wrapper {
@@ -240,7 +244,8 @@ header {
   height: 100%;
   padding: 120px;
   display: flex;
-  color: #fff;
+  color: #0d0d0d;
+  gap: 24px;
 }
 
 .estimate-left-area {
@@ -255,4 +260,37 @@ header {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.estimate-image-wrapper {
+  max-width: 480px;
+}
+
+.good-image {
+  width: 100%;
+  height: auto;
+}
+
+.estimate-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  word-break: keep-all;
+}
+.estimate-sub-text-wrapper .body-text {
+  letter-spacing: -1.5px;
+  color: #666;
+}
+
+.estimate-sub-text-wrapper .body-text span {
+  font-weight: bold;
+}
+
+.estimate-sub-title {
+  color: #0a2c83;
+  font-size: 26px;
+}
+
+.estimate-text-wrapper .headline2 span {
+  font-weight: bold;
 }
