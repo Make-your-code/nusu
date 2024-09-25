@@ -162,10 +162,16 @@
     width: 50%;
     left: 0;
   }
+  .useit-step-wrapper {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
   .mobile-step-circle {
     display: block;
   }
   .step-text {
+    display: inline-block;
     position: relative;
     top: auto;
     left: auto;
