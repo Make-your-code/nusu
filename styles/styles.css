@@ -549,6 +549,7 @@ header {
 /* buttom card section */
 .card {
   padding: 50px 40px 0 40px;
+  width: 100%;
 }
 
 .card-wrapper {
@@ -589,9 +590,11 @@ footer {
 .footer-info-wrapper {
   display: flex;
   gap: 4px;
+  color: #716f6f;
 }
 
-.footer-nav-wrapper {
+.footer-color {
+  color: #716f6f;
 }
 
 .footer-nav {
@@ -599,17 +602,20 @@ footer {
   gap: 30px;
   font-weight: bold;
 }
-.go-to-up-btn {
-}
-
-.web {
-  @media (width <=360px) {
-    display: none;
-  }
-}
 
 .footer-bottom-wrapper {
   display: flex;
   padding-top: 70px;
   justify-content: space-between;
+}
+
+.go-to-up-btn-wrapper {
+  display: none;
+  width: 100%;
+  padding: 20px 0 40px 0;
+  text-align: center;
+
+  font-weight: bold;
+  background-color: #0a2c83;
+  color: #fff;
 }

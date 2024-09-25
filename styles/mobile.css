@@ -5,7 +5,7 @@
   }
   .hero {
     padding-top: 80px;
-    background-image: url('../assets/hero/mobile-background-image.png');
+    background-image: url("../assets/hero/mobile-background-image.png");
 
     background-size: contain;
     background-position: top left;
@@ -70,6 +70,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .service-text-wrapper {
     display: flex;
     justify-content: center;
@@ -241,5 +242,23 @@
     display: none !important;
     background-color: red;
     transform: translateY(0px);
+  }
+
+  /*card-section*/
+
+  .card-wrapper {
+    background-image: url("../assets/card/모바일-배경.png");
+    background-size: contain;
+    background-position: center;
+  }
+
+  /* footer */
+  .footer-info-wrapper {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .go-to-up-btn-wrapper {
+    display: block;
   }
 }
