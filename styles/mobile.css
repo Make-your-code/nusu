@@ -5,7 +5,7 @@
   }
   .hero {
     padding-top: 80px;
-    background-image: url("../assets/hero/mobile-background-image.png");
+    background-image: url('../assets/hero/mobile-background-image.png');
 
     background-size: contain;
     background-position: top left;
@@ -247,9 +247,6 @@
   /*card-section*/
 
   .card-wrapper {
-    background-image: url("../assets/card/모바일-배경.png");
-    background-size: contain;
-    background-position: center;
   }
 
   /* footer */

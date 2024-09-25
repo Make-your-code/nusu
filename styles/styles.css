@@ -43,7 +43,7 @@ header {
   padding-top: 100px;
   box-sizing: border-box;
   background-color: var(--primary-color);
-  background-image: url("../assets/hero/background-image.png");
+  background-image: url('../assets/hero/background-image.png');
   background-size: cover; /* 이미지가 div를 완전히 덮도록 설정 */
   background-position: center; /* 이미지를 중앙에 위치 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
@@ -214,6 +214,7 @@ header {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .service-image-wrapper {
@@ -254,6 +255,7 @@ header {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .estimate-right-area {
@@ -548,17 +550,20 @@ header {
 
 /* buttom card section */
 .card {
-  padding: 50px 40px 0 40px;
+  padding: 120px;
   width: 100%;
 }
 
 .card-wrapper {
   padding: 20px 10px;
   width: 100%;
-  background-image: url("../assets/card/배경물결.png");
-  background-size: contain;
+  height: 890px;
+  border-radius: 40px;
+  background-image: url('../assets/card/배경물결.png');
+
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .card-inner {
@@ -578,7 +583,7 @@ header {
 
 /* footer */
 footer {
-  padding: 50px 40px 40px 40px;
+  padding: 100px 120px;
 }
 
 .footer-headline-wrapper {
