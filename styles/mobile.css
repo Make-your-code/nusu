@@ -125,4 +125,41 @@
   .estimate-right-area {
     margin-top: 48px;
   }
+
+  .useit-guide-wrapper {
+    max-width: auto;
+  }
+  .progress-container {
+    display: none;
+  }
+  .useit-step-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .useit-step-image-wrapper {
+    position: relative;
+  }
+  .useit-title-wrapper {
+    margin-bottom: 24px;
+  }
+  .mobile-step {
+    display: block;
+    position: absolute;
+    height: 2px;
+    top: 0;
+    border-top: 2px dotted #92addd;
+  }
+  .left-line {
+    width: 50%;
+    right: 0;
+  }
+  .full-line {
+    width: 100%;
+    left: 0;
+  }
+  .right-line {
+    width: 50%;
+    left: 0;
+  }
 }

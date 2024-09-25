@@ -23,4 +23,10 @@
   .estimate-image-wrapper {
     max-width: 400px;
   }
+  .useit-container {
+    padding: 20px;
+  }
+  .useit-charctor {
+    display: none;
+  }
 }
