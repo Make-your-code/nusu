@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>누모 Service</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="tablet.css" />
-    <link rel="stylesheet" href="mobile.css" />
-    <link rel="stylesheet" href="init.css" />
-    <link rel="stylesheet" href="typography.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/tablet.css" />
+    <link rel="stylesheet" href="/styles/mobile.css" />
+    <link rel="stylesheet" href="/styles/init.css" />
+    <link rel="stylesheet" href="/styles/typography.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+    <script src="/js/index.js" defer></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="header-wrapper">
         <div class="header-logo-wrapper">
           <img src="assets/common//logo.png" />
@@ -33,17 +34,17 @@
         </div>
         <div class="hero-content-wrapper">
           <div class="hero-content-title">
-            <h2 class="headline3">쉽고 빠른 누수 문제 해결</h2>
+            <h2 class="headline4">쉽고 빠른 누수 문제 해결</h2>
             <h1 class="headline1">누수의 모든 것, 누수</h1>
             <h1 class="headline1">해결 파트너 누모</h1>
-          </div>
-          <div class="hero-applink-wrapper">
-            <a>
-              <img src="assets/common/Mobile app store badge.png" class="app-link-button" />
-            </a>
-            <a>
-              <img src="assets/common/Mobile play store badge.png" class="app-link-button" />
-            </a>
+            <div class="hero-applink-wrapper">
+              <a>
+                <img src="assets/common/Mobile app store badge.png" class="app-link-button" />
+              </a>
+              <a>
+                <img src="assets/common/Mobile play store badge.png" class="app-link-button" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -59,8 +60,42 @@
             <img src="assets/features/chat.png" alt="chat-icon" />
           </div>
         </div>
+        <strong class="features-explain-text body-text">
+          누수 피해가 발생했을 때, 어떤 업체를 선정할 지 고민하지는 않으셨나요? 간단한 몇 단계로, <span>누모</span>가
+          대신 신뢰할 수 있는 시공업체를 찾아 견적을 요청해 드릴게요. 또한, 시공업체는 체계적인 고객관리로 서비스 품질을
+          높일 수 있어요!
+        </strong>
       </div>
     </section>
+    <section class="service" id="service">
+      <div class="service-container">
+        <div class="service-left-area">
+          <div class="service-text-wrapper">
+            <h4 class="sub-title">피해 상황 알리기</h4>
+            <h4 class="headline2">피해 상황을 간편하게 주변 전문가에게 알리세요</h4>
+            <div class="service-sub-text-wrapper">
+              <p class="body-text">
+                복잡한 절차는 이제 그만!<br />
+                원하시는 시공 유형과 피해발생 장소를 간편하게 선택해서<br />
+                주변 전문가에게 알리고 견적서를 받으세요<br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="service-right-area">
+          <div class="service-image-wrapper">
+            <img src="assets/service/mockup1.png" alt="iphone-mockup" class="service-iphone-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="estimate" id="estimate">
+      <div class="estimate-container">
+        <div class="estimate-left-area"></div>
+        <div class="estimate-right-area"></div>
+      </div>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
       AOS.init();

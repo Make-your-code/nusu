@@ -43,7 +43,7 @@ header {
   padding-top: 100px;
   box-sizing: border-box;
   background-color: var(--primary-color);
-  background-image: url("assets/hero/background-image.png");
+  background-image: url("../assets/hero/background-image.png");
   background-size: cover; /* 이미지가 div를 완전히 덮도록 설정 */
   background-position: center; /* 이미지를 중앙에 위치 */
   background-repeat: no-repeat; /* 이미지 반복 없음 */
@@ -61,30 +61,36 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
+  max-height: 900px;
 }
 
 .mockup-img {
   transform: translateY(30px);
-  max-width: 600px;
-  max-height: 900px;
+
   width: 100%;
-  height: 100%;
   object-fit: cover;
   object-position: center;
   transition: all ease-in-out 0.3s;
+
+  width: 100%; /* 이미지 너비를 컨테이너의 100%로 설정 */
+  height: auto; /* 높이를 자동으로 조정하여 비율 유지 */
+  display: block; /* 이미지 아래의 불필요한 공간 제거 */
 }
 
 .hero-content-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  padding-bottom: 240px;
 }
 
 .hero-applink-wrapper {
   display: flex;
   width: 100%;
+  padding: 40px 0;
+  gap: 12px;
 }
 
 .app-link-button {
@@ -106,6 +112,7 @@ header {
   background-color: var(--primary-color);
   position: relative;
   overflow: hidden;
+  padding: 120px;
 }
 .features-background-filter {
   position: absolute;
@@ -120,6 +127,7 @@ header {
 
 .features-container {
   width: 100%;
+  height: 100%;
   position: relative;
   z-index: 2;
   display: flex;
@@ -133,6 +141,118 @@ header {
   word-break: keep-all;
 }
 
-.features-icon img {
+.features-explain-text {
+  color: #c4c4c4;
+  margin-top: 60px;
+  max-width: 900px;
+  word-break: keep-all;
+  text-align: center;
+}
+
+.features-explain-text span {
+  color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.chat-icon {
+  width: 100%;
   transition: all 0.3s ease-in-out;
+}
+
+/* 이까지 features 섹션 */
+
+.service {
+  width: 100%;
+  height: calc(100% + 50px);
+  background-color: var(--primary-color);
+  position: relative;
+}
+
+.service-container {
+  width: 100%;
+  height: 100%;
+  padding: 120px;
+  display: flex;
+  color: #fff;
+}
+
+.service-left-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 3vw;
+}
+
+.service-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  word-break: keep-all;
+}
+.sub-title {
+  font-size: 26px;
+}
+
+.service-sub-text-wrapper {
+  width: 80%;
+}
+
+.service-sub-text-wrapper {
+  color: #c4c4c4;
+  word-break: keep-all;
+}
+.service-right-area {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.service-image-wrapper {
+  max-width: 550px;
+}
+.service-iphone-img {
+  width: 100%; /* 이미지 너비를 컨테이너의 100%로 설정 */
+  height: auto; /* 높이를 자동으로 조정하여 비율 유지 */
+  display: block; /* 이미지 아래의 불필요한 공간 제거 */
+}
+
+/* 여기까지 서비스 */
+
+/* estimate section */
+.estimate {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  transform: translateY(-50px);
+  z-index: 1;
+}
+
+.estimate-container {
+  width: 100%;
+  height: 100%;
+  padding: 120px;
+  display: flex;
+  color: #fff;
+}
+
+.estimate-left-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.estimate-right-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }

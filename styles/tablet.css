@@ -7,7 +7,7 @@
   }
 
   .hero-content-wrapper {
-    padding-bottom: 120px;
+    padding-bottom: 10vh;
   }
 
   .features-icon {
@@ -15,5 +15,9 @@
   }
   .features-icon img {
     width: 100%;
+  }
+
+  .features-explain-text {
+    margin-top: 48px;
   }
 }

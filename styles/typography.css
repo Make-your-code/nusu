@@ -1,45 +1,39 @@
 /* 기본 스타일 (데스크톱) */
 .headline1 {
-  font-size: clamp(3px, 5vw, 70px);
-  font-weight: bold;
-  transition: all ease-in-out 0.3s;
+  font-size: clamp(36px, 4.5vw, 70px);
+  font-weight: 500;
 }
 
 .headline2 {
-  font-size: clamp(32px, 4vw, 60px);
-  font-weight: bold;
-  transition: all ease-in-out 0.3s;
+  font-size: clamp(32px, 3.8vw, 60px);
+  font-weight: 500;
 }
 
 .headline3 {
   font-size: clamp(28px, 3.5vw, 48px);
   font-weight: 600;
-  transition: all ease-in-out 0.3s;
 }
 
 .headline4 {
   font-size: clamp(24px, 3vw, 36px);
   font-weight: 600;
-  transition: all ease-in-out 0.3s;
 }
 
 .headline5 {
   font-size: clamp(20px, 2.5vw, 30px);
   font-weight: 500;
-  transition: all ease-in-out 0.3s;
 }
 
 .body-text {
   font-size: clamp(16px, 2vw, 24px);
   font-weight: 400;
   line-height: 1.6;
-  transition: all ease-in-out 0.3s;
 }
 
 /* 태블릿 스타일 */
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   .headline1 {
-    font-size: clamp(36px, 4.5vw, 60px);
+    font-size: clamp(36px, 4vw, 60px);
   }
 
   .headline2 {
