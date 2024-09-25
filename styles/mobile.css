@@ -5,7 +5,7 @@
   }
   .hero {
     padding-top: 58px;
-    background-image: url('../assets/hero/mobile-background-image.png');
+    background-image: url("../assets/hero/mobile-background-image.png");
 
     background-size: contain;
     background-position: top left;
@@ -257,11 +257,14 @@
 
   .card-inner {
     margin: 0;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    padding: 60px 30px;
+  }
+
+  .card-applink-wrapper {
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
   }
   /* footer */
 
@@ -275,5 +278,14 @@
 
   .go-to-up-btn-wrapper {
     display: block;
+  }
+
+  .app-store-button {
+    width: 120px;
+    height: 38px;
+  }
+  .play-store-button {
+    width: 136px;
+    height: 38px;
   }
 }
