@@ -71,6 +71,7 @@ header {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: all ease-in-out 0.3s;
 }
 
 .hero-content-wrapper {
@@ -106,7 +107,6 @@ header {
   position: relative;
   overflow: hidden;
 }
-
 .features-background-filter {
   position: absolute;
   z-index: 1;
@@ -116,4 +116,23 @@ header {
   background-color: #163789; /* 진한 파란색 배경 */
   border-top-left-radius: 60%;
   border-top-right-radius: 60%;
+}
+
+.features-container {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 24px;
+  padding-top: 120px;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.features-icon img {
+  transition: all 0.3s ease-in-out;
 }

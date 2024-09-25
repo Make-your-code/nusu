@@ -9,4 +9,11 @@
   .hero-content-wrapper {
     padding-bottom: 120px;
   }
+
+  .features-icon {
+    width: 320px;
+  }
+  .features-icon img {
+    width: 100%;
+  }
 }

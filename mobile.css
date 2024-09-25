@@ -8,7 +8,7 @@
     background-image: url("assets/hero/mobile-background-image.png");
     background-size: contain;
     background-position: top left;
-    height: 100%;
+    height: auto;
   }
   .hero-container {
     flex-direction: column;
@@ -24,7 +24,7 @@
     padding: 0;
     transform: translateY(30px);
     transform: translateX(-30px);
-    width: 300px;
+    width: 340px;
   }
 
   .hero-content-title {
@@ -42,13 +42,21 @@
   .hero-applink-wrapper {
     width: 100%;
     justify-content: center;
-
-    padding-top: 40px;
+    padding: 40px 0;
   }
   .features {
     background-color: #163789; /* 진한 파란색 배경 */
   }
+  .features-container {
+    padding-top: 40px;
+  }
   .features-background-filter {
     display: none;
+  }
+  .features-icon {
+    width: 140px;
+  }
+  .features-icon img {
+    width: 100%;
   }
 }
