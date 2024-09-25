@@ -1,0 +1,92 @@
+/* 기본 스타일 (데스크톱) */
+.headline1 {
+  font-size: clamp(36px, 5vw, 70px);
+  font-weight: bold;
+}
+
+.headline2 {
+  font-size: clamp(32px, 4vw, 60px);
+  font-weight: bold;
+}
+
+.headline3 {
+  font-size: clamp(28px, 3.5vw, 48px);
+  font-weight: 600;
+}
+
+.headline4 {
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 600;
+}
+
+.headline5 {
+  font-size: clamp(20px, 2.5vw, 30px);
+  font-weight: 500;
+}
+
+.body-text {
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* 태블릿 스타일 */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .headline1 {
+    font-size: clamp(36px, 4.5vw, 60px);
+  }
+
+  .headline2 {
+    font-size: clamp(30px, 3.5vw, 50px);
+  }
+
+  .headline3 {
+    font-size: clamp(28px, 3vw, 40px);
+  }
+
+  .headline4 {
+    font-size: clamp(24px, 2.5vw, 32px);
+  }
+
+  .headline5 {
+    font-size: clamp(18px, 2.2vw, 28px);
+  }
+
+  .body-text {
+    font-size: clamp(14px, 1.8vw, 20px);
+    line-height: 1.5;
+  }
+}
+
+/* 모바일 스타일 */
+@media screen and (max-width: 480px) {
+  .headline1 {
+    font-weight: 700;
+    font-size: clamp(34px, 4vw, 50px);
+  }
+
+  .headline2 {
+    font-weight: 700;
+    font-size: clamp(24px, 3.5vw, 40px);
+  }
+
+  .headline3 {
+    font-weight: 600;
+    font-size: clamp(20px, 3vw, 32px);
+  }
+
+  .headline4 {
+    font-weight: 500;
+    font-size: clamp(18px, 2.5vw, 28px);
+  }
+
+  .headline5 {
+    font-weight: 500;
+    font-size: clamp(16px, 2.2vw, 24px);
+  }
+
+  .body-text {
+    font-size: clamp(14px, 1.6vw, 18px);
+    line-height: 1.4;
+  }
+}
