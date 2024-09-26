@@ -74,7 +74,6 @@ header {
   max-width: 600px;
   max-height: 900px;
   margin: 0 auto;
-  background-color: red;
 }
 
 .mockup-img {
@@ -514,6 +513,8 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .app-image-flex {
   display: flex;
@@ -530,6 +531,7 @@ header {
 
 .app-image-wrapper-m {
   position: relative;
+  z-index: 1;
 }
 .app-image-wrapper-lg .iphone-mockup-2 {
   width: 100%;
@@ -558,16 +560,64 @@ header {
   background-color: #fff;
 }
 
+.dot-wrapper2 {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dot-wrapper3 {
+  position: absolute;
+  top: 120%;
+  left: 35%;
+  transform: translateX(-50%);
+  display: flex;
+  background-color: red;
+  z-index: 999;
+}
+
+.circle-dot3 {
+  width: 468px;
+  height: 2px;
+  position: absolute;
+  border-top: 2px dotted #92addd;
+  z-index: 1;
+  right: 0;
+}
+
+.circle-dot2 {
+  width: 2px;
+  height: 197px;
+  position: absolute;
+  border-left: 2px dotted #92addd;
+
+  z-index: 1;
+  top: 5px;
+  left: 64px;
+}
+
+.bottom-circle {
+  position: absolute;
+  bottom: 64px;
+  left: 64px;
+}
+
+.left-circle {
+  position: absolute;
+}
+
 .dot-wrapper {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
+
 .top-circle {
   position: absolute;
   top: 64px;
 }
+
 .circle-dot {
   width: 2px;
   height: 70px;
@@ -658,6 +708,7 @@ header {
 .card-app-download-title {
   color: #c5cdeb;
   font-weight: 700;
+  margin-bottom: 12px;
 }
 
 .card-headline-wrapper {
@@ -742,6 +793,37 @@ footer {
   gap: 12px;
 }
 
+.dotline-wrapper {
+  position: absolute;
+  bottom: -120px;
+  left: 320px;
+  z-index: 9;
+  width: 25%;
+}
+
+.dotline-wrapper img {
+  width: 100%;
+}
+
 .app-title-flex-mobile {
+  display: block;
+  position: absolute;
+  bottom: -250px;
+  left: 24%;
+}
+
+.app-title-flex-mobile .headline4.global-sub-title {
+  color: #365abb;
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.app-title-flex-mobile .headline5 {
+  font-size: 18px;
+  max-width: 240px;
+  font-weight: 500;
+}
+.app-explain-mobile-view {
   display: none;
 }

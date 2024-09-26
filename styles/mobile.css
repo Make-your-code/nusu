@@ -245,11 +245,19 @@
     margin-top: 80px;
     padding: 20px;
     gap: 12px;
+    position: relative;
+    top: 0;
+    left: 0;
   }
 
-  .app-title-flex-mobile .headline2 {
+  .app-title-flex-mobile .headline5 {
+    max-width: none;
   }
 
+  .dot-wrapper2,
+  .dot-wrapper3 {
+    display: none;
+  }
   .app-image-flex {
     margin-top: 40px;
     width: 100%;
@@ -258,6 +266,19 @@
   .slide-icon-wrapper-mobile {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .app-image-wrapper-m {
+  }
+  .app-explain-mobile-view {
+    display: block;
+  }
+  .app-explain-mobile-text {
+    width: 100%;
+    padding: 48px 20px;
+    font-weight: 500;
+    color: #666;
+    text-align: center;
   }
 
   .app-image-wrapper-m .app-image2 {
