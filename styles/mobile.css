@@ -168,6 +168,12 @@
     width: 50%;
     left: 0;
   }
+  .useit-background {
+    background: #fff;
+  }
+  .useit-container {
+    background-color: red;
+  }
   .useit-step-wrapper {
     justify-content: center;
     flex-direction: column;
@@ -188,13 +194,17 @@
   }
 
   .guide-container {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   .guide-content-wrapper {
     width: 100%;
     flex-direction: column;
     height: auto;
+  }
+
+  .mobile-background-filter {
+    background: linear-gradient(180deg, rgba(232, 235, 247, 0) 0%, #e8ebf7 100%);
   }
   .app-image-wrapper-lg {
     width: 100%;
@@ -213,9 +223,21 @@
     transform: translateY(0px);
     max-width: 300px;
   }
+  .app-title-flex-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+    gap: 12px;
+  }
+
+  .app-title-flex-mobile .headline2 {
+  }
 
   .app-image-flex {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100%;
     justify-content: center;
   }
