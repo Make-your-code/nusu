@@ -40,6 +40,7 @@
 
   .hero-content-wrapper {
     padding-bottom: 0;
+    padding-right: 0;
   }
 
   .hero-applink-wrapper {
@@ -64,8 +65,9 @@
     width: 100%;
   }
 
-  .features-explain-text {
-    margin-top: 24px;
+  .features-explain-text.body-text {
+    margin-top: 60px;
+    font-size: 16px;
   }
 
   .service-container {
@@ -125,6 +127,10 @@
     margin: 0 auto;
   }
 
+  .estimate-search-image-wrapper {
+    max-width: 120px;
+    top: -80px;
+  }
   .estimate-left-area,
   .estimate-right-area {
     height: auto;
@@ -148,6 +154,11 @@
   }
   .useit-step-image-wrapper {
     position: relative;
+  }
+  .step-image-wrapper {
+    top: -20px;
+    right: -40px;
+    max-width: 80px;
   }
   .useit-title-wrapper {
     margin-bottom: 24px;
@@ -331,6 +342,9 @@
 
   .go-to-up-btn-wrapper {
     display: block;
+  }
+  .go-to-up-btn {
+    font-size: 20px;
   }
 
   .app-store-button {

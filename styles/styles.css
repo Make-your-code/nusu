@@ -61,12 +61,7 @@ header {
   font-weight: 300;
   margin-bottom: 20px;
 }
-.hero-content-title .headline5 span {
-  font-weight: bold;
-}
-.hero-content-title .headline1 span {
-  font-weight: bold;
-}
+
 .hero-content-title .headline1 {
   font-weight: 500;
 }
@@ -78,6 +73,8 @@ header {
   align-items: center;
   max-width: 600px;
   max-height: 900px;
+  margin: 0 auto;
+  background-color: red;
 }
 
 .mockup-img {
@@ -93,12 +90,18 @@ header {
   display: block; /* 이미지 아래의 불필요한 공간 제거 */
 }
 
+.hero-image-content {
+  width: 100%;
+  height: 100%;
+}
+
 .hero-content-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-right: 120px;
 }
 
 .hero-applink-wrapper {
@@ -167,25 +170,12 @@ header {
   font-weight: 300;
 }
 
-.features-container .headline2 span {
-  font-weight: bold;
-}
-
 .features-explain-text {
   color: #c4c4c4;
   margin-top: 60px;
   max-width: 900px;
   word-break: keep-all;
   text-align: center;
-}
-
-.features-explain-text span {
-  color: #fff;
-  font-weight: bold;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .chat-icon {
@@ -228,12 +218,7 @@ header {
   word-break: keep-all;
   width: 100%;
 }
-.service-text-wrapper .headline2 span {
-  font-weight: bold;
-}
-.service-text span {
-  font-weight: bold;
-}
+
 .service-sub-title {
   font-size: 26px;
   color: #c5cdeb;
@@ -302,10 +287,17 @@ header {
   height: 100%;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .estimate-image-wrapper {
   max-width: 480px;
+}
+
+.estimate-search-image-wrapper {
+  position: absolute;
+  top: 10%;
+  right: 0;
 }
 
 .good-image {
@@ -318,23 +310,16 @@ header {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  max-width: 500px;
   word-break: keep-all;
 }
 .estimate-sub-text-wrapper .body-text {
   color: #666;
 }
 
-.estimate-sub-text-wrapper .body-text span {
-  font-weight: bold;
-}
-
 .global-sub-title {
   color: #0a2c83;
   font-size: 26px;
-}
-
-.estimate-text-wrapper .headline2 span {
-  font-weight: bold;
 }
 
 .useit {
@@ -407,6 +392,16 @@ header {
 .useit-step-image-wrapper img {
   width: 100%;
   height: auto;
+}
+
+.step-image-wrapper {
+  position: absolute;
+  top: -160px;
+  right: -40px;
+  max-width: 100px;
+}
+.step-image-wrapper img {
+  width: 100%;
 }
 
 .useit-step-wrapper {
@@ -630,9 +625,7 @@ header {
   word-break: keep-all;
   margin-top: 48px;
 }
-.text-box span {
-  font-weight: bold;
-}
+
 /*  card section */
 
 .card {
@@ -667,10 +660,6 @@ header {
   font-weight: 700;
 }
 
-.card-app-link-text span {
-  font-weight: bold;
-  color: #fff;
-}
 .card-headline-wrapper {
   width: 100%;
   height: 100%;
@@ -692,12 +681,22 @@ footer {
   display: flex;
   gap: 2px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .footer-info-wrapper {
   display: flex;
   gap: 4px;
   color: #716f6f;
+}
+
+.footer-info-wrapper .body-text {
+  font-weight: 500;
+  color: #808080;
+}
+.footer-color {
+  font-weight: 500;
+  color: #808080;
 }
 
 .footer-color {
@@ -728,7 +727,13 @@ footer {
 }
 
 .go-to-up-btn {
+  font-weight: bold;
+  font-size: 24px;
   cursor: pointer;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-applink-wrapper {

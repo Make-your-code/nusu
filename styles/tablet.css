@@ -36,4 +36,14 @@
   .appointment-wrapper {
     padding-top: 320px;
   }
+  .estimate-search-image-wrapper {
+    max-width: 140px;
+    top: -50px;
+  }
+  .estimate-search-image-wrapper img {
+    width: 100%;
+  }
+  .estimate-text-wrapper {
+    max-width: none;
+  }
 }
