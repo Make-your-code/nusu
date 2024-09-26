@@ -44,7 +44,7 @@
     justify-content: center;
   }
   .features {
-    padding: 60px 20px;
+    padding: 20px;
 
     background-color: #163789; /* 진한 파란색 배경 */
   }
@@ -172,7 +172,6 @@
     background: #fff;
   }
   .useit-container {
-    background-color: red;
   }
   .useit-step-wrapper {
     justify-content: center;
@@ -191,6 +190,7 @@
     left: auto;
     transform: translateX(0);
     margin-bottom: 12px;
+    padding: 4px;
   }
 
   .guide-container {
@@ -262,8 +262,31 @@
 
   .app-explain {
     display: none !important;
-    background-color: red;
     transform: translateY(0px);
+  }
+
+  /* appointment */
+
+  .appointment-wrapper {
+    padding: 48px 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .appointment-right-wrapper {
+    padding-bottom: 0;
+  }
+
+  .text-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .appointment-wrapper br {
+    display: none;
   }
 
   /*card-section*/

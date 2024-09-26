@@ -276,6 +276,7 @@ header {
 }
 
 .estimate-text-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -310,8 +311,7 @@ header {
 }
 .useit-container {
   width: 100%;
-  padding: 50px 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .useit-title-wrapper {
@@ -320,7 +320,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   text-align: center;
   word-break: keep-all;
 }
@@ -464,6 +464,7 @@ header {
 /* useit section2 */
 .guide-container {
   width: 100%;
+  padding-top: 120px;
 }
 .guide-title-wrapper {
   width: 100%;
@@ -556,13 +557,15 @@ header {
 }
 
 .appointment-image-wrapper {
-  max-width: 680px;
+  max-width: 620px;
   margin: 0 auto;
-  background-color: red;
 }
 
 .appointment-img {
   width: 100%;
+}
+.appointment-main-text-wrapper {
+  margin-top: 24px;
 }
 .appointment-left-wrapper {
   width: 100%;
@@ -576,9 +579,10 @@ header {
 }
 .headline-box {
   word-break: keep-all;
+  line-height: 1.2;
 }
 .text-box {
-  max-width: 500px;
+  max-width: 620px;
   word-break: keep-all;
   margin-top: 48px;
 }
