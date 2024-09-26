@@ -316,11 +316,126 @@ header {
   color: #666;
 }
 
-.global-sub-title {
-  color: #0a2c83;
-  font-size: 26px;
+/* 여기까지 estimate */
+
+/* reviews 섹션*/
+
+.review {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  transform: translateY(-50px);
+  z-index: 1;
 }
 
+.review-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+  display: flex;
+  color: #0d0d0d;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.review-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebebeb;
+  color: #555555;
+  border-radius: 20px;
+  width: 100%;
+  height: 108px;
+  border: 1px solid #cccccc;
+}
+.review-flex-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 540px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.review-progress {
+  background-color: #e8ebf7;
+  width: 30%;
+  border-radius: 50px;
+  color: #262626;
+  font-weight: 500;
+  height: 100%;
+}
+.review-progress-purple {
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #2f52b1 0%, #778dcf 100%);
+  border: 1px solid #365abb;
+  border-radius: 20px;
+}
+
+.review-progress-wp {
+  background-color: #e8ebf7;
+}
+
+.review-left-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-content-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.review-right-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.review-image-wrapper {
+  max-width: 480px;
+}
+
+.review-search-image-wrapper {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+.good-image {
+  width: 100%;
+  height: auto;
+}
+
+.review-text-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  word-break: keep-all;
+}
+.review-sub-text-wrapper .body-text {
+  color: #666;
+}
+
+/* useit 섹션 */
 .useit {
   position: relative;
 }
