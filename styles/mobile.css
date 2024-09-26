@@ -5,7 +5,7 @@
   }
   .hero {
     padding-top: 58px;
-    background-image: url("../assets/hero/mobile-background-image.png");
+    background-image: url('../assets/hero/mobile-background-image.png');
 
     background-size: contain;
     background-position: top left;
@@ -21,6 +21,9 @@
     width: 100%;
   }
 
+  .headline2.headline-box {
+    font-weight: 500;
+  }
   .mockup-img {
     padding: 0;
     transform: translateY(30px);
@@ -210,7 +213,9 @@
   .guide-container {
     padding-top: 80px;
   }
-
+  .guide-title-wrapper {
+    padding: 0 20px;
+  }
   .guide-content-wrapper {
     width: 100%;
     flex-direction: column;
