@@ -523,6 +523,7 @@ header {
 
 .app-image-wrapper-lg {
   max-width: 500px;
+  position: relative;
 }
 .slide-icon-wrapper {
   position: relative;
