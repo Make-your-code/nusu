@@ -34,6 +34,9 @@
     justify-content: center;
     text-align: center;
   }
+  .hero-content-title .headline5 {
+    margin-bottom: 12px;
+  }
 
   .hero-content-wrapper {
     padding-bottom: 0;
@@ -280,7 +283,9 @@
   .text-box {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
     margin: 0;
     padding: 20px;
   }
@@ -292,7 +297,7 @@
   /*card-section*/
 
   .card {
-    padding: 24px;
+    padding: 48px 20px;
   }
 
   .card-wrapper {
@@ -314,11 +319,14 @@
   /* footer */
 
   footer {
-    padding: 24px;
+    padding: 24px 20px;
   }
   .footer-info-wrapper {
     flex-direction: column;
     gap: 2px;
+  }
+  .footer-nav {
+    font-size: 14px;
   }
 
   .go-to-up-btn-wrapper {
