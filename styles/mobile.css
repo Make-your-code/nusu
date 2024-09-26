@@ -4,8 +4,8 @@
     display: none;
   }
   .hero {
-    padding-top: 80px;
-    background-image: url('../assets/hero/mobile-background-image.png');
+    padding-top: 58px;
+    background-image: url("../assets/hero/mobile-background-image.png");
 
     background-size: contain;
     background-position: top left;
@@ -34,9 +34,13 @@
     justify-content: center;
     text-align: center;
   }
+  .hero-content-title .headline5 {
+    margin-bottom: 12px;
+  }
 
   .hero-content-wrapper {
     padding-bottom: 0;
+    padding-right: 0;
   }
 
   .hero-applink-wrapper {
@@ -44,7 +48,7 @@
     justify-content: center;
   }
   .features {
-    padding: 60px 20px;
+    padding: 20px;
 
     background-color: #163789; /* 진한 파란색 배경 */
   }
@@ -61,8 +65,9 @@
     width: 100%;
   }
 
-  .features-explain-text {
-    margin-top: 24px;
+  .features-explain-text.body-text {
+    margin-top: 60px;
+    font-size: 16px;
   }
 
   .service-container {
@@ -70,6 +75,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .service-text-wrapper {
     display: flex;
     justify-content: center;
@@ -121,6 +127,10 @@
     margin: 0 auto;
   }
 
+  .estimate-search-image-wrapper {
+    max-width: 120px;
+    top: -80px;
+  }
   .estimate-left-area,
   .estimate-right-area {
     height: auto;
@@ -145,6 +155,11 @@
   .useit-step-image-wrapper {
     position: relative;
   }
+  .step-image-wrapper {
+    top: -20px;
+    right: -40px;
+    max-width: 80px;
+  }
   .useit-title-wrapper {
     margin-bottom: 24px;
   }
@@ -167,6 +182,11 @@
     width: 50%;
     left: 0;
   }
+  .useit-background {
+    background: #fff;
+  }
+  .useit-container {
+  }
   .useit-step-wrapper {
     justify-content: center;
     flex-direction: column;
@@ -184,16 +204,21 @@
     left: auto;
     transform: translateX(0);
     margin-bottom: 12px;
+    padding: 4px;
   }
 
   .guide-container {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   .guide-content-wrapper {
     width: 100%;
     flex-direction: column;
     height: auto;
+  }
+
+  .mobile-background-filter {
+    background: linear-gradient(180deg, rgba(232, 235, 247, 0) 0%, #e8ebf7 100%);
   }
   .app-image-wrapper-lg {
     width: 100%;
@@ -212,15 +237,48 @@
     transform: translateY(0px);
     max-width: 300px;
   }
+  .app-title-flex-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+    gap: 12px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 
+  .app-title-flex-mobile .headline5 {
+    max-width: none;
+  }
+
+  .dot-wrapper2,
+  .dot-wrapper3 {
+    display: none;
+  }
   .app-image-flex {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100%;
     justify-content: center;
   }
   .slide-icon-wrapper-mobile {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .app-image-wrapper-m {
+  }
+  .app-explain-mobile-view {
+    display: block;
+  }
+  .app-explain-mobile-text {
+    width: 100%;
+    padding: 48px 20px;
+    font-weight: 500;
+    color: #666;
+    text-align: center;
   }
 
   .app-image-wrapper-m .app-image2 {
@@ -239,7 +297,83 @@
 
   .app-explain {
     display: none !important;
-    background-color: red;
     transform: translateY(0px);
+  }
+
+  /* appointment */
+
+  .appointment-wrapper {
+    padding: 48px 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .appointment-right-wrapper {
+    padding-bottom: 0;
+  }
+
+  .text-box {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .appointment-wrapper br {
+    display: none;
+  }
+
+  /*card-section*/
+
+  .card {
+    padding: 48px 20px;
+  }
+
+  .card-wrapper {
+    height: 520px;
+    display: flex;
+  }
+
+  .card-inner {
+    margin: 0;
+    position: relative;
+    padding: 60px 30px;
+  }
+
+  .card-applink-wrapper {
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+  }
+  /* footer */
+
+  footer {
+    padding: 24px 20px;
+  }
+  .footer-info-wrapper {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .footer-nav {
+    font-size: 14px;
+  }
+
+  .go-to-up-btn-wrapper {
+    display: block;
+  }
+  .go-to-up-btn {
+    font-size: 20px;
+  }
+
+  .app-store-button {
+    width: 120px;
+    height: 38px;
+  }
+  .play-store-button {
+    width: 136px;
+    height: 38px;
   }
 }

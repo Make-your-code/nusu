@@ -1,7 +1,7 @@
 /* 기본 스타일 (데스크톱) */
 .headline1 {
   font-size: clamp(36px, 4.5vw, 70px);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .headline2 {
@@ -11,12 +11,12 @@
 
 .headline3 {
   font-size: clamp(28px, 3.5vw, 48px);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .headline4 {
   font-size: clamp(24px, 3vw, 36px);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .headline5 {
@@ -25,7 +25,7 @@
 }
 
 .body-text {
-  font-size: clamp(16px, 2vw, 24px);
+  font-size: clamp(16px, 1.6vw, 24px);
   font-weight: 400;
   line-height: 1.6;
 }
@@ -53,7 +53,7 @@
   }
 
   .body-text {
-    font-size: clamp(14px, 1.8vw, 20px);
+    font-size: clamp(14px, 1.4vw, 20px);
     line-height: 1.5;
   }
 }
@@ -76,7 +76,7 @@
   }
 
   .headline4 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: clamp(18px, 2.5vw, 28px);
   }
 
@@ -86,7 +86,7 @@
   }
 
   .body-text {
-    font-size: clamp(14px, 1.6vw, 18px);
+    font-size: 16px;
     line-height: 1.4;
   }
 }

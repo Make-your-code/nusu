@@ -33,4 +33,17 @@
   .app-image-wrapper-lg .iphone-mockup-2 {
     transform: translateY(86px);
   }
+  .appointment-wrapper {
+    padding-top: 320px;
+  }
+  .estimate-search-image-wrapper {
+    max-width: 140px;
+    top: -50px;
+  }
+  .estimate-search-image-wrapper img {
+    width: 100%;
+  }
+  .estimate-text-wrapper {
+    max-width: none;
+  }
 }
