@@ -550,11 +550,10 @@ header {
 }
 .app-image-wrapper-m .app-explain {
   width: 100%;
-  display: flex;
-  justify-content: center;
   text-align: center;
   transform: translateY(140px);
   margin-bottom: 48px;
+  color: #666;
 }
 .bg-white-container {
   background-color: #fff;

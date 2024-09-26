@@ -15,7 +15,7 @@
 }
 
 .headline4 {
-  font-size: clamp(24px, 3vw, 36px);
+  font-size: clamp(22px, 2.2vw, 36px);
   font-weight: 700;
 }
 
