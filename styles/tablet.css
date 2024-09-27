@@ -46,4 +46,20 @@
   .estimate-text-wrapper {
     max-width: none;
   }
+
+  .review-flex-box {
+    height: 440px;
+    max-width: none;
+    border-radius: 30px;
+  }
+
+  .review-flex-box {
+    padding: 24px;
+    gap: 12px;
+  }
+
+  .review-item {
+    height: 78px;
+    border-radius: 10px;
+  }
 }

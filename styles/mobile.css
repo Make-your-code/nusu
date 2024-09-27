@@ -143,6 +143,43 @@
     margin-top: 48px;
   }
 
+  .review {
+    height: auto;
+  }
+  .review-text-wrapper {
+    text-align: center;
+    gap: 0px;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  /* review */
+  .review-container {
+    padding: 60px 20px;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .review-left-area,
+  .review-right-area {
+    height: auto;
+  }
+
+  .review-flex-box {
+    height: 320px;
+    max-width: none;
+    border-radius: 30px;
+  }
+  .review-item {
+    height: 58px;
+    border-radius: 10px;
+  }
+
+  .review-flex-box {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  /* useit */
   .useit-guide-wrapper {
     max-width: auto;
   }
