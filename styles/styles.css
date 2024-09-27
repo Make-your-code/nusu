@@ -696,6 +696,11 @@ header {
 .app-image-wrapper-lg {
   max-width: 500px;
   position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+  height: 100%;
+  align-items: end;
 }
 .slide-icon-wrapper {
   position: relative;
@@ -709,8 +714,7 @@ header {
 }
 .app-image-wrapper-lg .iphone-mockup-2 {
   width: 100%;
-  max-width: 500px;
-  transform: translateY(12px) !important;
+  object-fit: contain;
 }
 
 .app-image-wrapper-m .app-image1 {
