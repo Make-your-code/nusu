@@ -359,6 +359,7 @@ header {
   height: 108px;
   border: 1px solid #cccccc;
   overflow: hidden;
+  position: relative;
 }
 .review-flex-box {
   display: flex;
@@ -374,6 +375,8 @@ header {
   box-sizing: border-box;
   max-width: 690px;
   margin: 0 auto;
+  font-size: 24px;
+  font-weight: 500;
 }
 .review-score {
   padding-right: 24px;
@@ -389,7 +392,6 @@ header {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   color: #262626;
-  font-weight: 500;
   height: 100%;
   padding-right: 24px;
 }
@@ -426,6 +428,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.review-icon-wrapper {
+  max-width: 150px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -220px;
+  z-index: 1;
+}
+.review-icon-wrapper img {
+  width: 100%;
 }
 .review-content-wrapper {
   width: 100%;

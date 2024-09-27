@@ -177,8 +177,24 @@
   .review-flex-box {
     padding: 16px;
     gap: 12px;
+    font-size: 16px;
   }
 
+  .review-icon-wrapper {
+    max-width: 50px;
+    left: 60%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+  }
+  .review-progress {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .reivew-progress-normal {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
   /* useit */
   .useit-guide-wrapper {
     max-width: auto;
