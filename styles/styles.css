@@ -710,7 +710,7 @@ header {
 .app-image-wrapper-lg .iphone-mockup-2 {
   width: 100%;
   max-width: 500px;
-  transform: translateY(12px);
+  transform: translateY(12px) !important;
 }
 
 .app-image-wrapper-m .app-image1 {
