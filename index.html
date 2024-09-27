@@ -21,12 +21,21 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/tablet.css" />
     <link rel="stylesheet" href="./styles/mobile.css" />
-    <link rel="stylesheet" href="./styles/init.css" />
+    <link rel="stylesheet" href="./styles/modal.css" />
     <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/init.css" />
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
     <script src="./js/index.js" defer></script>
   </head>
   <body>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2 class="modal-title"></h2>
+        <div class="modal-body"></div>
+      </div>
+    </div>
     <header class="header" id="header">
       <div class="header-wrapper" data-aos="fade-in" data-aos-duration="800">
         <div class="header-logo-wrapper">
@@ -34,9 +43,8 @@
         </div>
         <div class="header-nav-wrapper">
           <nav class="header-nav">
-            <a href="#"> 개인정보 처리 방침 </a>
-            <a href="#"> 이용 약관 </a>
-            <a href="#"> 사업자 정보 확인 </a>
+            <a href="#" class="privacy-policy"> 개인정보 처리방침 </a>
+            <a href="#" class="terms-of-service"> 이용 약관 </a>
           </nav>
         </div>
       </div>
@@ -469,9 +477,8 @@
       <div class="footer-bottom-wrapper">
         <div class="footer-nav-wrapper">
           <nav class="footer-nav">
-            <a href="#"> 개인정보 처리 방침 </a>
-            <a href="#"> 이용 약관 </a>
-            <a href="#"> 사업자 정보 확인 </a>
+            <a href="#" class="privacy-policy"> 개인정보 처리방침 </a>
+            <a href="#" class="terms-of-service"> 이용 약관 </a>
           </nav>
         </div>
         <div class="app-explain go-to-up-btn" onclick="window.scrollTo(0,0);">
