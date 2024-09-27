@@ -73,6 +73,10 @@
     font-size: 16px;
   }
 
+  .service {
+    height: 105%;
+  }
+
   .service-container {
     flex-direction: column;
     align-items: center;
