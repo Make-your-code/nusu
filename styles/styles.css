@@ -877,6 +877,7 @@ header {
 .card-app-link-text {
   color: #c4c4c4;
   margin: 48px 0;
+  word-break: keep-all;
 }
 .card-app-download-title {
   color: #c5cdeb;
